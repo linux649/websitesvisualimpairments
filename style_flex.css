@@ -1,0 +1,150 @@
+/* css rules */
+@font-face {
+    font-family: "Gotham Black";
+    src: url("fonts/Gotham-Black.otf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Medium";
+    src: url("fonts/Gotham-Medium.otf");
+    font-display: swap;
+}
+/* element styles */
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: "Gotham Black", sans-serif, monospace;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: "Gotham Black", sans-serif, monospace;
+    font-size: 24px;
+    margin: 0;
+}
+p,ul {
+    font-family: "Gotham Medium", sans-serif, monospace;
+    font-size: 18px;
+    margin: 0.1vw;
+    margin-bottom: 1vw;
+}
+p {
+    min-width: 60vw;
+}
+code {
+    background-color: lightgrey;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header {
+    position: relative;
+    top:0;
+    left: 0;
+    border:2px;
+    border-color: black;
+    border-style: solid;
+    background-color: #a1deff;
+    color:black;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2vh;
+    align-items: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    padding:1vh;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex:1;
+}
+li {
+    margin-bottom: 1vh;
+}
+img {
+    display: flex;
+}
+hr {
+    margin:0;
+    border-color:orange;
+}
+/* class styles */
+a.sr {
+    position: absolute;
+    left: auto;
+    top: -100px
+}
+a.sr:focus {
+    position: static;
+    left: auto;
+    top: auto;
+}
+a.nav {
+    margin:0.9vw;
+    display: inline-block;
+    font-family: "Gotham Medium", sans-serif, monospace;
+    font-size: 18px;
+    color:#0000aa
+}
+a.nav:visited {
+    color: #551A8B;
+}
+a.nav:active {
+    color:#aa0000;
+}
+p.no_margin {
+    margin: 0;
+}
+img.flr {
+    float:right;
+}
+img.fll {
+    float:left;
+}
+/* id styles */
+#visual_impairments {
+    display: flex;
+}
+#htmlcssicons {
+    width: 300px;
+    height: auto;
+}
+#glasses {
+    width:400px;
+    height: auto;
+}
+#wcag_glasses {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#wcag_keyboard {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#wcag_thumbs {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#wcag_code, #content_code {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#copyright {
+    display: flex;
+    flex-direction: row;
+}

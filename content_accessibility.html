@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="linux649">
+        <meta name="description" content="This website explains how accessibility can be put on websites for people with visual impairments.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Websites and Visual Impairments - Website Accessibility</title>
+        <link rel="stylesheet" href="style_flex.css">
+    </head>
+    <body>
+        <a class="sr" href="#main">Skip to main content</a>
+        <header>
+            <h1>Website Accessibility</h1>
+            <hr>
+            <nav>
+                <a href="index.html" class="nav">Home Page</a>
+                <a href="wcag.html" class="nav">Web Content Accessibility Guidelines</a>
+            </nav>
+        </header>
+        <main id="main">
+            <div>
+            <section id="content_accessibility">
+            <h2>How the content of this website is accessible</h2>
+            <p>
+                Making the content of the website accessible means to make the information on the website as understandable as
+                possible, expanding abbreviations and acronyms (like expanding HTML to HyperText Markup Language), as well as
+                refraining from using slang terms, slang acronyms (like idk and lol), and try to use words instead of symbols 
+                where it makes sense (like instead of using 5-7, using five to seven).
+            </p>
+            </section></div>
+            <div>
+            <section id="coding_accessibility">
+            <h2>How this website is coded to be accessible</h2>
+            <p>
+                Coding a website to be more accessible means to use semantic HyperText Markup Language (<abbr>HTML</abbr>),
+                allowing interactable elements to be controlled in multiple ways (like mouse and also keyboard controls), and also
+                making sure that your website can be viewed on a range of browsers and devices.
+            </p></section></div>
+            <div>
+            <section>
+                <h2>Semantic HyperText Markup Language</h2>
+            <p>
+                Semantic <abbr title="HyperText Markup Language">HTML</abbr> is using the correct <abbr title="HyperText Markup Language">HTML</abbr>
+                elements for their intended purpose as much as possible. An example of this is instead of marking up a button control using a <code>&lt;div&gt;</code> element,
+                using the <code>&lt;button&gt;</code> element makes more sense and requires less work to make the button control work.</p><p> If you
+                make websites, you may use non-semantic <abbr title="HyperText Markup Language">HTML</abbr> way more than you realise.</p><p> Some examples
+                on non-semantic <abbr title="HyperText Markup Language">HTML</abbr> elements are <code>&lt;div&gt;</code> elements and <code>&lt;span&gt;</code>
+                elements. These elements don't have a specific use, and can be used for anything.</p><p> You may be using a <code>&lt;div&gt;</code> or <code>&lt;span&gt;</code>
+                element to separate sections where the <code>&lt;section&gt;</code> or <code>&lt;article&gt;</code> elements would make more sense to use to
+                separate sections, or you may be using a <code>&lt;div&gt;</code> or <code>&lt;span&gt;</code> element to arrange headers and footers
+                where using the <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code> elements would make more sense.</p><p> If you consistently
+                make sure that you use the correct elements for the job as much as possible, you will realise that it makes more sense to use the specific element
+                than using <code>&lt;div&gt;</code> or <code>&lt;span&gt;</code> elements.
+            </p></section>
+            <img id="content_code" src="images/code1.jpg" alt="A computer screen with lots of code">
+            </div>
+            <div>
+            <section>
+                <h2>Interactable Elements</h2>
+            <p>
+                You can allow interactable elements to be controlled in multiple ways by using the <code>tabindex</code> attribute in <abbr title="HyperText Markup Language">HTML</abbr>
+                or by using JavaScript to add keyboard controls or navigation.
+            </p></section></div>
+            <div>
+            <section>
+                <h2>Viewing on other devices</h2>
+            <p>
+                You can also make sure that your website can be viewed on a range of devices and browsers by ensuring that you are using code
+                that is supported by most browsers. To also make sure that your website can be viewed on a range of devices, you can test your website
+                on a range of devices and also test your website on different browsers.
+            </p>
+            </section>
+            </div>
+            <div>
+            <section>
+                <h2>Skip Navigation Links</h2>
+            <p>
+            People percieving your website, using a screen reader or similar technology, may not want to hear navigation links being read aloud.
+            Accessible websites implement a skip navigation link. A skip navigation link (or skipnav) is a link placed before navigation links
+            that allow the user to tab to the skipnav link first (press <code>Tab</code> until you navigate to the skipnav link to see the skipnav link pop out from the top-left of the page) and skip past the navigation
+            to the main content of a website. It is fairly simple to add to a website and can allow people who don't want to hear the links read aloud
+            to skip the links, allowing for a better user experience.
+            </p>
+            </section>
+            </div>
+        </main>
+        <footer>
+             <p id="copyright" class="no_margin">This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;" alt="Creative Commons Logo"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;" alt="CC Attribution Icon"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;" alt="CC ShareALike Icon"></p>
+        </footer>
+    </body>
+</html>
