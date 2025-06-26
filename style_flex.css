@@ -121,26 +121,26 @@ img.fll {
     height: auto;
 }
 #glasses {
-    width:400px;
+    width:300px;
     height: auto;
 }
 #wcag_glasses {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 10px;
 }
 #wcag_keyboard {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 10px;
 }
 #wcag_thumbs {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 10px;
 }
 #wcag_code, #content_code {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 10px;
 }
