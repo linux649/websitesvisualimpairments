@@ -117,30 +117,30 @@ img.fll {
     display: flex;
 }
 #htmlcssicons {
-    width: 300px;
+    width: 45vw;
     height: auto;
 }
 #glasses {
-    width:300px;
+    width:45vwx;
     height: auto;
 }
 #wcag_glasses {
-    width: 300px;
+    width: 45vw;
     height: auto;
     margin: 10px;
 }
 #wcag_keyboard {
-    width: 300px;
+    width: 45vw;
     height: auto;
     margin: 10px;
 }
 #wcag_thumbs {
-    width: 300px;
+    width: 45vw;
     height: auto;
     margin: 10px;
 }
 #wcag_code, #content_code {
-    width: 300px;
+    width: 45vw;
     height: auto;
     margin: 10px;
 }
